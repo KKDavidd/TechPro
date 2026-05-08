@@ -12,7 +12,7 @@ body {
 
 .card {
   --card-bg: #1f2937;
-  --card-accent: #166534;
+  --card-accent: #6d0404;
   --card-text: #f9fafb;
   --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
   width: 300px;
@@ -56,7 +56,7 @@ body {
 .card__image {
   width: 100%;
   height: 150px;
-  background: linear-gradient(45deg, #166534, #14532d);
+  background: linear-gradient(45deg, #8b0000, #df0808);
   border-radius: 12px;
   transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
