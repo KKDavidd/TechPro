@@ -1,6 +1,37 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+  overflow-x: hidden;
+}
 i {
   display: inline-block;
   font-family: bootstrap-icons;  
   font-style: normal;
+}
+iframe{
+  margin: 0;
+  padding: 25px 25px 0 25px;
+}
+li{
+  overflow-y: hidden;
+}
+.bemszoveg{
+  padding-top: 25px;
+}
+.alink{
+  color:#ef0707
+}
+.alink:hover{
+  color:#bd0000;
+}
+.ilink{
+  color:#00C7FD;
+}
+.ilink:hover{
+  color:#0068B5;
+}
+.nlink{
+  color:#76B900
+}
+.nlink:hover{
+  color:#3C8300
 }

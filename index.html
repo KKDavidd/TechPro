@@ -41,117 +41,172 @@
       </div>
     </div>
   </nav>
-  <section id="referenciamunkak" class="references py-5">
-    <h2 class="section-title">Termékek bemutatása</h2>
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="villanyszereles-tab" data-bs-toggle="tab" data-bs-target="#villanyszereles"
-          type="button" role="tab" aria-controls="villanyszereles" aria-selected="true">NVIDIA</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="burkolas-tab" data-bs-toggle="tab" data-bs-target="#burkolas" type="button"
-          role="tab" aria-controls="burkolas" aria-selected="false">Intel</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="oktas-tab" data-bs-toggle="tab" data-bs-target="#oktas" type="button" role="tab"
-          aria-controls="oktas" aria-selected="false">AMD</button>
-      </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="villanyszereles" role="tabpanel" aria-labelledby="villanyszereles-tab">
-        <div class="row">
-          <div class="col-md-6">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1QC9X_QW52k?si=dpnOiItqbqkXb4dR"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-          <div class="col-md-6">
-            <h5>NVIDIA bemutatása</h5>
-            <p>Az NVIDIA a világ vezető grafikus processzor (GPU) és mesterséges intelligencia (AI) hardver tervezője.
-            </p>
-            <p>A népszerű GeForce videokártyák mellett ma már az ő adatközponti chipjeik hajtják meg a globális
-              AI-forradalmat.</p>
-            <p>Legyen szó gamerekről vagy nagyvállalati rendszerekről, innovatív technológiájuk megkerülhetetlen.</p>
+  
+<section id="bemutatkozas" class="py-5">
+    <div class="container bemszoveg">
+      <h2 style="text-align: center;">Bemutatkozás</h2>
+      <p>
+        A TechPro egy 2024-ben indult oldal, amely kizárólag videókártyákkal (GPU) foglalkozik. 
+        Célunk, hogy bemutassuk a legújabb NVIDIA, AMD és Intel grafikus vezérlőket, és segítsünk eligazodni a PC-építés ezen fontos területén.
+      </p>
+      <p>
+        Oldalunkon megtalálod a legfrissebb kártyák videós bemutatóit, hogy könnyebb legyen a választás, ha a számítógéped grafikus teljesítményének fejlesztésén gondolkodsz.
+      </p>
+    </div>
+  </section>
 
+  <section id="referenciamunkak" class="references py-3">
+    <div class="container">
+      <h2 class="section-title">Termékek bemutatása</h2>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active nlink" id="villanyszereles-tab" data-bs-toggle="tab" data-bs-target="#villanyszereles"
+            type="button" role="tab" aria-controls="villanyszereles" aria-selected="true">NVIDIA</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link ilink" id="burkolas-tab" data-bs-toggle="tab" data-bs-target="#burkolas" type="button"
+            role="tab" aria-controls="burkolas" aria-selected="false">Intel</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link alink" id="oktas-tab" data-bs-toggle="tab" data-bs-target="#oktas" type="button" role="tab"
+            aria-controls="oktas" aria-selected="false">AMD</button>
+        </li>
+      </ul>
+      
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="villanyszereles" role="tabpanel" aria-labelledby="villanyszereles-tab">
+          <div class="row">
+            <div class="col-md-auto">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/1QC9X_QW52k?si=dpnOiItqbqkXb4dR"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md bemszoveg">
+              <h5>NVIDIA bemutatása</h5>
+              <p>Az NVIDIA a világ vezető grafikus processzor (GPU) és mesterséges intelligencia (AI) hardver tervezője.</p>
+              <p>A népszerű GeForce videokártyák mellett ma már az ő adatközponti chipjeik hajtják meg a globális AI-forradalmat.</p>
+              <p>Legyen szó gamerekről vagy nagyvállalati rendszerekről, innovatív technológiájuk megkerülhetetlen.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tab-pane fade" id="burkolas" role="tabpanel" aria-labelledby="burkolas-tab">
+          <div class="row">
+            <div class="col-md-auto">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ufaprXJwnys?si=t1aN2ssJ46SHnTtT"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md bemszoveg">
+              <h5>Intel bemutatása</h5>
+              <p>Az Intel évtizedek óta a személyi számítógépek és szerverek processzorpiacának meghatározó, ikonikus szereplője.</p>
+              <p> A jól ismert Core és Xeon processzorcsaládok a mindennapi, megbízható számítástechnika alappilléreit jelentik.</p>
+              <p>Ráadásul a vállalat - a legtöbb versenytársával ellentétben - saját gyáraiban maga állítja elő chipjeit.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tab-pane fade" id="oktas" role="tabpanel" aria-labelledby="oktas-tab">
+          <div class="row">
+            <div class="col-md-auto">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Ndhb2uiQ9tE?si=mRDRJFtUFW4wSFDU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md bemszoveg">
+              <h5>AMD bemutatása</h5>
+              <p>Az AMD egyedülálló módon egyszerre kínál csúcskategóriás processzorokat és grafikus vezérlőket.</p>
+              <p>A népszerű Ryzen és Radeon szériákkal a piac egyik leginnovatívabb és legversenyképesebb szereplője.</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="tab-pane fade" id="burkolas" role="tabpanel" aria-labelledby="burkolas-tab">
-        <div class="row">
-          <div class="col-md-6">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ufaprXJwnys?si=t1aN2ssJ46SHnTtT"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-          <div class="col-md-6">
-            <h5>Intel bemutatása</h5>
-            <p>Az Intel évtizedek óta a személyi számítógépek és szerverek processzorpiacának meghatározó, ikonikus
-              szereplője.</p>
-            <p> A jól ismert Core és Xeon processzorcsaládok a mindennapi, megbízható számítástechnika alappilléreit
-              jelentik.</p>
-            <p>Ráadásul a vállalat – a legtöbb versenytársával ellentétben – saját gyáraiban maga állítja elő chipjeit.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane fade" id="oktas" role="tabpanel" aria-labelledby="oktas-tab">
-        <div class="row">
-          <div class="col-md-6">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ndhb2uiQ9tE?si=mRDRJFtUFW4wSFDU"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-          <div class="col-md-6">
-            <h5>AMD bemutatása</h5>
-            <p>Az AMD egyedülálló módon egyszerre kínál csúcskategóriás processzorokat és grafikus vezérlőket.</p>
-            <p> A népszerű Ryzen és Radeon szériákkal a piac egyik leginnovatívabb és legversenyképesebb szereplője.</p>
+    </div> </section>
+  
+  <section id="hirek" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Legfrissebb Híreink</h2>
+      <div class="row g-4">
+        
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-primary">Készleten a legújabb NVIDIA RTX széria!</h5>
+              <h6 class="card-subtitle mb-3 text-muted"><i class="bi bi-calendar3"></i> 2026. május 05.</h6>
+              <p class="card-text">Hatalmas örömmel jelentjük be, hogy megérkezett a várva várt új generációs NVIDIA videokártya szállítmányunk. Ne maradj le, a készlet a hatalmas érdeklődés miatt gyorsan fogy! Építsd meg velünk a jövő mesterséges intelligencia- és gamer PC-jét grafikus kártyáinkkal.</p>
+              <div class="mt-auto pt-3">
+                <a href="#" class="btn btn-outline-primary btn-sm">Tovább olvasom</a>
+              </div>
+            </div>
           </div>
         </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-primary">Brutális erő az új AMD Radeon kártyákban</h5>
+              <h6 class="card-subtitle mb-3 text-muted"><i class="bi bi-calendar3"></i> 2026. április 28.</h6>
+              <p class="card-text">Befutottak hozzánk az AMD legújabb Radeon RX videokártyái! Veszprémi üzletünk kibővített tesztlaborjában most te magad is próbára teheted a csúcskategóriás grafikus vezérlőket. Tapasztald meg a kompromisszummentes 4K gaming élményt!</p>
+              <div class="mt-auto pt-3">
+                <a href="#" class="btn btn-outline-primary btn-sm">Tovább olvasom</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-primary">Előrendelhetők az Intel Arc újdonságai</h5>
+              <h6 class="card-subtitle mb-3 text-muted"><i class="bi bi-calendar3"></i> 2026. április 15.</h6>
+              <p class="card-text">Megnyitottuk az exkluzív előrendelést a legújabb generációs Intel Arc videokártyákra. Kiváló ár-érték arány és lenyűgöző hardveres kódolási képességek tartalomgyártóknak és gamereknek egyaránt. Biztosítsd be a saját példányodat még ma!</p>
+              <div class="mt-auto pt-3">
+                <a href="#" class="btn btn-outline-primary btn-sm">Tovább olvasom</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
+  
   <footer class="text-center text-lg-start bg-body-tertiary text-muted">
     <section class="">
-      <div class="container text-center text-md-start mt-5">
+      <div class="container text-center text-md-start mt-3">
         <div class="row mt-3">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <h6 class="text-uppercase fw-bold mb-4">
               <i class="fas fa-gem me-3"></i>TechPro
             </h6>
             <p>
-              A TechPro egy 2024-ben alapított dinamikus hardverkereskedés, amely a legújabb számítástechnikai megoldásokra szakosodott. Kínálatunkban a piacvezető AMD, NVIDIA és Intel legmodernebb processzorai és grafikus kártyái egyaránt megtalálhatóak. Elkötelezettek vagyunk amellett, hogy a gamerek, tartalomgyártók és professzionális felhasználók számára is a legmagasabb szintű teljesítményt biztosítsuk. Célunk, hogy szakértő támogatással segítsük ügyfeleinket a jövő technológiájának kiépítésében.
+              A 2024-ben alapított TechPro a legújabb AMD, NVIDIA és Intel hardverek specialistája. Prémium teljesítményt és szakértő támogatást kínálunk gamereknek és profiknak a jövő technológiájának kiépítéséhez.
             </p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">
-              Árusított márkák
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">NVIDIA</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Intel</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">AMD</a>
-            </p>
+            <h6 class="text-uppercase fw-bold mb-4">Árusított márkák</h6>
+            <p><a href="#!" class="nlink">NVIDIA</a></p>
+            <p><a href="#!" class="ilink">Intel</a></p>
+            <p><a href="#!" class="alink">AMD</a></p>
           </div>
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 class="text-uppercase fw-bold mb-4">Kapcsolat</h6>
-            <p><i class="bi bi-house-door-fill"></i> Veszprém, Kossuth utca 67</p>
-            <p><i class="bi bi-envelope-at-fill"></i> <a href="mailto:techpro@kkdavid.top">techpro@kkdavid.top</a></p>
-            <p><i class="bi bi-telephone-inbound-fill"></i> <a href="tel:+36701234567">+36 70 123 4567</a></p>
-            <p><i class="bi bi-calculator"></i> 12345678-2-19</p>
+            <p title="Az üzlet a térképen"><i class="bi bi-house-door-fill"></i> <a href="https://maps.app.goo.gl/mUgwTb5poYsvsDpK6">Veszprém, Kossuth utca 67</a></p>
+            <p title="Az email címünk"><i class="bi bi-envelope-at-fill"></i> <a href="mailto:techpro@kkdavid.top">techpro@kkdavid.top</a></p>
+            <p title="A telefonszámunk"><i class="bi bi-telephone-inbound-fill"></i> <a href="tel:+36701234567">+36 70 123 4567</a></p>
+            <p title="Az adószámunk"><i class="bi bi-calculator"></i> 12345678-2-19</p>
           </div>
         </div>
       </div>
     </section>
+  
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">&#169 2026: TechPro Kft.</div>
   </footer>
 
 </body>
-
 </html>
+
+index.html
