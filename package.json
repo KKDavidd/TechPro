@@ -1,0 +1,23 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "[Excalidraw](https://excalidraw.com/#room=936808a65edb9ee67ae1,r9sFvu0DoyckU8YIf-9GGA)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KKDavidd/TechPro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KKDavidd/TechPro/issues"
+  },
+  "homepage": "https://github.com/KKDavidd/TechPro#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
